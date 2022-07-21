@@ -58,7 +58,7 @@ const Input = () => {
                     <div className='imc'>
                     <h4>Seu IMC : {result}</h4>
                     </div>
-                    <p>{ msg }</p>
+                    <p className='p'>{ msg }</p>
                
             </div>
             
