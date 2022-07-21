@@ -1,14 +1,16 @@
 import React from 'react'
 
 import '../styles/table.sass'
+import IMC from '../image/tabelaimc.png'
+
 
 
 const Table = () => {
     return (
-      <>
-         
-      <main className='table'>
-         <h3 >Tabela de IMC</h3>
+        <>
+         <img src={IMC} alt='table'/>
+     <main className='table' >
+         <h3 >Sobre o IMC</h3>
                 <spam>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela
                     Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
                     O índice é calculado da seguinte maneira: divide-se o peso do paciente

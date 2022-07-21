@@ -2,28 +2,47 @@
     background-color: #F1f1f1
     display: flex
     justify-content: flex-start
-    align-items: center
+    align-items: flex-start
     flex-flow: column
     border-radius: .3rem
+    margin-left: 1rem
     width: 45rem
     height: 80vh
-    padding: .2rem
-    color: #4682B4
+    padding: 1rem
+    color: #02555e
 
     p
-        font-size: .7rem
-        color: #4682B4
+        font-size: .8rem
+        color: #02555e
+        padding-top: .1rem
+
+.body
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-flow: column
+    width: 50%
+    padding: .6rem
+    margin: 1rem 0
 
 .title
     display: flex
     justify-content: center
     width: 100%
+    border-radius: .3rem
     color: #DCDCDC
-    background-color: #4682B4
+    background-color: #02555e
+    animation: flipTitle 3s
+
+@keyframes flipTitle
+    from
+        transform: rotateX(90deg)
+
+    to
+        transform: rotateX(0deg)
 
     input
         width: 8rem
-        height: 1.5rem
         margin-top: 1rem
 
         placeholder
@@ -32,30 +51,25 @@
     label
         font-size: 1.3rem
 
-.button-gen
-    display: flex
-    justify-content: center
-    align-items: center
-    flex-flow: column
-    border-radius: .3rem
-    width: 13rem
-    height: 10vh
-    color: #DCDCDC
-
-.button
+button
     font-size: 1rem
     width: 13rem
-    padding: .1rem
-    margin-top: .5rem
-    background-color: #4682B4
-    color: #fff
+    padding: .5rem
+    margin-top: .8rem
+    background-color: #02555e
+    color: #DCDCDC
     border-radius: .3rem
     border: none
 
 .imc
-    background-color: #4682B4
+    display: flex
+    align-items: center
+    background-color: #02555e
     color: #dcdcdc
     width: 13rem
+    height: 4rem
     border-radius: .3rem
-    padding-top: .2rem
-    margin-top: .4rem
+    margin-top: 1rem
+
+    h4
+        margin: .3rem
