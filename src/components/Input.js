@@ -53,7 +53,7 @@ const Input = () => {
                 <div className='button-gen'>
                     <button 
                     type='submit'
-                    onClick={handleCalc}>Click para Calcular</button>
+                    onClick={handleCalc}>Calcular</button>
                 </div>
                     <div className='imc'>
                     <h4>Seu IMC : {result}</h4>
